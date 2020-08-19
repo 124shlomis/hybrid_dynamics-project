@@ -1,11 +1,11 @@
 % tau function:
 function tau=calc_tau(t)
-    t1 = 0.14;
-    t2 = 0.17;
-    t3 = 0.181;
-    tau1=-0.1;
+    t1 = 0.114;
+    t2 = 0.117;
+    t3 = 0.1181;
+    tau1=-0.11;
     tau2=-10.0;
-    tau3=8.9;
+    tau3=8.19;
     tau4=0;
     if t < t1
         tau=tau1;

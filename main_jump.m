@@ -4,7 +4,7 @@ load('ends_points.mat'); % rQ rR global matlabFunction
 global collision_state sigma mu sol_stick_Func 
 mu=0.3;
 %I.C
-theta1_0 = deg2rad(82); theta2_0 = deg2rad(70);
+theta1_0 = deg2rad(72); theta2_0 = deg2rad(70);
 X0 =[0 0 0 0 theta1_0 0 theta2_0 0];
 
 tspan = [0 1.2];
